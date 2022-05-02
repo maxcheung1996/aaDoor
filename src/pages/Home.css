@@ -1,0 +1,24 @@
+.ionCard {
+    text-align: center;
+    width: 65%;
+
+}
+
+.ionCardImg {
+    padding-left: 26px;
+    padding-top: 20px;
+}
+
+.home_card_title {
+    font-size: 13px;
+}
+
+.home_menu_text {
+    padding-left: 40%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.ion-no-border {
+    text-align: center;
+}

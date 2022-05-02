@@ -1,0 +1,7 @@
+{
+  "name": "aahk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

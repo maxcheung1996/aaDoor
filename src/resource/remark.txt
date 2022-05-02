@@ -1,0 +1,6 @@
+checklist json changed
+add hidden flag for section
+add default value or result in json
+
+https://app.socam.com/wcf_cmms_Prod/AAHKDoorInspectDetail/Admin/?eform_define_guid=BCE6734F-0D5D-43F8-A098-4A114911AD48&action=question&proj_code=AAM102&wo_no=WO21-214403&eform_guid=b9de712a-f249-41e1-9434-c4458dbd0f35&prod_guid=46FA94B2-95A2-409E-818A-EE424D2547EF&activity_guid=383ce99a-0a7e-4d4a-bedd-38aa22400256&list_filter_page=1&default_door_no=3NC101&default_location=T1S%20L3&filter={%22from_date%22:%222021-01-01%22,%22to_date%22:%222022-05-02%22,%22keyword%22:%22%22,%22other_staff%22:%22%22,%22list_keyword%22:%22%22}
+missing 類型 section in gobal

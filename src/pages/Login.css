@@ -1,0 +1,62 @@
+.socam_logo {
+    width:80%;
+
+}
+
+.login_grid {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.login_btn{
+    margin-top: 12px;
+    width: 65%;
+    height: 100%;
+    text-transform: none;
+}
+
+.logo_padding {
+    padding-left: 8%;
+}
+
+.login-footer-sec{
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.login-footer-first {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.login_cmms {
+    font-size: large;
+    font-weight:bold;
+}
+
+.login_sign-in {
+    font-size: 21px;
+    font-weight:bold;
+}
+
+.login_sign-in_row {
+    margin-top: 10px;
+}
+
+.login-input-border {
+    border-radius: 10px;
+    width: 80%;
+    border: solid 1px grey;
+}
+
+.login_input_row {
+    padding-left: 17%;
+}
+
+.login_input_first_row {
+    margin-top: 21px;
+}

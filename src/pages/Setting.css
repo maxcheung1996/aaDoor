@@ -1,0 +1,31 @@
+.setting_user_logo {
+    padding-left: 30%;
+    margin-top: 45px;
+}
+
+.user_logo {
+    width: 53%;
+}
+
+.setting_logout_btn {
+    text-transform: none;
+    margin-top: 25px;
+}
+
+.login_grid {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.setting_user_text {
+    font-weight: bold;
+    font-size: large;
+}
+
+.setting_logout_row {
+    padding-left: 39%;
+}
+
+.setting_grid {
+    text-align: center;
+}
