@@ -39,7 +39,7 @@ import React, { useEffect, useState } from "react";
 import { IonSlides, IonSlide } from "@ionic/react";
 import { Footer } from "../components/footer";
 import { SubFormModel } from "./SubFormModel";
-import { checkListDetail, doorStatusList, sampleFormData } from "../database/Utils/sampleJson";
+import { checkListDetail, checkListSubDetail, doorStatusList, sampleFormData } from "../database/Utils/sampleJson";
 import { MyDoorStatusModal } from "../model/door";
 
 // Optional parameters to pass to the swiper instance.
@@ -53,6 +53,7 @@ const CheckList: React.FC = (props: any) => {
   const [open, setOpen] = useState(false);
   const [doorStatus, setDoorStatus] = useState<MyDoorStatusModal | null>();
   const [dataStatus, setDataStatus] = useState(false);
+
 
   const closeModal = () => {
     setOpen(false);
@@ -389,13 +390,13 @@ const CheckList: React.FC = (props: any) => {
                                 <IonModal
                                   isOpen={open}
                                   breakpoints={[0.1, 0.5, 1]}
-                                  initialBreakpoint={0.5}
+                                  initialBreakpoint={0.8}
                                   backdropBreakpoint={0.2}
                                   onDidDismiss={closeModal}
                                   trigger={"trigger-button-" + i.toString()}
                                 >
                                   <SubFormModel
-                                    data={"Sub Form No." + i.toString()}
+                                    data={checkListSubDetail.filter(z => z.eformResultDetailGuid === v.eformResultDetailGuid)}
                                   />
                                 </IonModal>
                               </IonCol> : <><IonCol></IonCol></>}
